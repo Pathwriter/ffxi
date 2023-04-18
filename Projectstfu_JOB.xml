@@ -1,0 +1,62 @@
+<ashitacast>
+	<settings>
+		<buffupdate>false</buffupdate>
+		<statusupdate>false</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="Idle">
+            <ammo></ammo>
+            <head></head>
+            <body></body>
+            <hands></hands>
+            <legs></legs>
+            <feet></feet>
+            <neck></neck>
+            <waist></waist>
+            <ear1></ear1>
+            <ear2></ear2>
+            <ring1></ring1>
+            <ring2></ring2>
+            <back></back>
+		</set>
+		<set name="TP">
+            <ammo></ammo>
+            <head></head>
+            <body></body>
+            <hands></hands>
+            <legs></legs>
+            <feet></feet>
+            <neck></neck>
+            <waist></waist>
+            <ear1></ear1>
+            <ear2></ear2>
+            <ring1></ring1>
+            <ring2></ring2>
+            <back></back>
+		</set>
+		<set name="Weaponskill">
+            <ammo></ammo>
+            <head></head>
+            <body></body>
+            <hands></hands>
+            <legs></legs>
+            <feet></feet>
+            <neck></neck>
+            <waist></waist>
+            <ear1></ear1>
+            <ear2></ear2>
+            <ring1></ring1>
+            <ring2></ring2>
+            <back></back>
+		</set>
+	</sets>
+	<idlegear>
+		<if p_status="engaged"><equip set="TP" /></if>
+		<else><equip set="Idle" /></else>
+	</idlegear>
+	<weaponskill>
+		<equip set="Weaponskill" />
+	</weaponskill>
+</ashitacast>
